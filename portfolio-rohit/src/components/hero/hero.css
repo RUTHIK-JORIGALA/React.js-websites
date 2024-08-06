@@ -1,0 +1,109 @@
+.hero-section{
+    /* background-image: url('../../assets/bg-hero.jpg'); */
+    height: 85vh;
+    background-size: cover;
+}
+.hero-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+.text-container{
+    height: 100%;
+    flex: 2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.text-container h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+}
+
+.text-container p{
+    max-width: 80%;
+    text-align: center;
+    color: rgb(200, 203, 206);
+    font-family: cursive;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+.contact-container p{
+    color: #fff;
+}
+.contact-container div{
+    transition: all linear 0.2s;
+}
+.contact-container div:hover{
+    color: gray ;
+    cursor: pointer;
+}
+.links-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.download-resume button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+.download-resume button:hover{
+    backdrop-filter: blur(0.5px);
+    transform: translateY(-2px);
+}
+.linkedin-link{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin-icon{
+    color: #fff;
+}
+.image-container{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.image-box{
+    background-color: #0d3856;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.hero-sub-heading{
+    color: #fff !important;
+    font-weight: 600;
+}

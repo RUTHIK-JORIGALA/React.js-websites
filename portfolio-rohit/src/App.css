@@ -1,0 +1,10 @@
+.main-container{
+    background-image: url('../src/assets/bg-hero.jpg');
+    background-size: cover;
+    /* height: 100vh; */
+    background-attachment: fixed;
+    padding-bottom: 20px;
+}
+h1{
+    color: #fff;
+}
