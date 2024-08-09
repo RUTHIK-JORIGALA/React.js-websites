@@ -6,65 +6,7 @@ const Experience = () => {
   return (
     <section className='experience-container' id='experience'>
         <h1 className='heading-experience'>Experience</h1>
-        <div className="experience-box">
-            {/* <img src={tiktok} alt="tiktok" /> */}
-            <h1>TikTok Shop Specialist</h1>
-            <div className='experience-text'>
-                <p> <span>Operations Management </span>
-                <ul>
-                    <li>
-                    Optimized end-to-end operations, including listings, sales, and inventory.
-                    </li>
-                </ul>
-                </p>
-                <p><span>Promotional Campaigns</span>
-                <ul>
-                    <li>Orchestrated campaigns and collaborated with creators to boost product visibility and sales.</li>
-                </ul>
-                
-                </p>
-                <p><span>Customer Satisfaction</span>
-                <ul>
-                    <li>Addressed product delays, ensuring customer satisfaction and maintaining brand reputation.</li>
-                </ul>
-                
-                </p>
-                <p><span>Affiliate Marketing </span>
-                <ul>
-                    <li>Drove traffic and sales through targeted TikTok affiliate marketing initiatives.</li>
-                </ul>
-                
-                </p>
-                <p><span>Process Execution</span>
-                <ul><li>Ensured compliance and efficiency in executing TikTok seller central processes.</li></ul>
-                
-                </p>
-                <p><span>Marketing Activities </span>
-                <ul>
-                    <li>Managed shop ads, promotions, sales campaigns, and discounts.</li>
-                </ul>
-                
-                </p>
-                <p><span>Order Management:</span>
-                <ul>
-                    <li>Handled orders, returns, and fulfillment settings on TikTok Shop.</li>
-                </ul>
-                
-                </p>
-                <p><span>Collaboration Management:</span>
-                <ul>
-                    <li>Managed collaboration invites, commissions, and partnerships with creators in the TikTok Affiliate Center.</li>
-                </ul>
-                
-                </p>
-                <p><span>Data Analysis:</span>
-                <ul>
-                    <li>Generated and analyzed sales reports, affiliate orders, and business analytics.</li>
-                </ul>
-                
-                </p>
-            </div>
-        </div>
+        
         <div className="experience-box">
             <h1>Amazon Seller Account Manager</h1>
             <div className='experience-text'>
@@ -217,6 +159,65 @@ const Experience = () => {
                     </ul>
                 </p>
                 
+            </div>
+        </div>
+        <div className="experience-box">
+            {/* <img src={tiktok} alt="tiktok" /> */}
+            <h1>TikTok Shop Specialist</h1>
+            <div className='experience-text'>
+                <p> <span>Operations Management </span>
+                <ul>
+                    <li>
+                    Optimized end-to-end operations, including listings, sales, and inventory.
+                    </li>
+                </ul>
+                </p>
+                <p><span>Promotional Campaigns</span>
+                <ul>
+                    <li>Orchestrated campaigns and collaborated with creators to boost product visibility and sales.</li>
+                </ul>
+                
+                </p>
+                <p><span>Customer Satisfaction</span>
+                <ul>
+                    <li>Addressed product delays, ensuring customer satisfaction and maintaining brand reputation.</li>
+                </ul>
+                
+                </p>
+                <p><span>Affiliate Marketing </span>
+                <ul>
+                    <li>Drove traffic and sales through targeted TikTok affiliate marketing initiatives.</li>
+                </ul>
+                
+                </p>
+                <p><span>Process Execution</span>
+                <ul><li>Ensured compliance and efficiency in executing TikTok seller central processes.</li></ul>
+                
+                </p>
+                <p><span>Marketing Activities </span>
+                <ul>
+                    <li>Managed shop ads, promotions, sales campaigns, and discounts.</li>
+                </ul>
+                
+                </p>
+                <p><span>Order Management:</span>
+                <ul>
+                    <li>Handled orders, returns, and fulfillment settings on TikTok Shop.</li>
+                </ul>
+                
+                </p>
+                <p><span>Collaboration Management:</span>
+                <ul>
+                    <li>Managed collaboration invites, commissions, and partnerships with creators in the TikTok Affiliate Center.</li>
+                </ul>
+                
+                </p>
+                <p><span>Data Analysis:</span>
+                <ul>
+                    <li>Generated and analyzed sales reports, affiliate orders, and business analytics.</li>
+                </ul>
+                
+                </p>
             </div>
         </div>
     </section>

@@ -19,7 +19,10 @@ nav{
     margin: 0 auto;
 }
 .nav-links li:hover{
-    /* padding-bottom: 10px; */
+    cursor: pointer;
+    border-bottom: 3px solid #7FA1C3;
+}
+.nav-links li .active{
     border-bottom: 3px solid #7FA1C3;
 }
 .nav-links li a{
@@ -44,7 +47,6 @@ nav{
     }
 
     .icon{
-        background-image: url('../../assets/bg-nav.jpg');
         color: #fff;
         display: block;
         padding-right: 20px;
@@ -68,7 +70,11 @@ nav{
         color: #fff;
     }
     .nav-links.active{
-        top: 14%;
+        top: 80px;
+        
+    }
+    .bars-icon{
+        background-color: transparent;
     }
 }
 

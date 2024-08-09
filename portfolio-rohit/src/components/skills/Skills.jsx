@@ -7,126 +7,126 @@ const Skills = () => {
         <h1 className='heading-experience'>Skills</h1>
 
     <div className='skills-container'>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Listing management</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Copywriting</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Amazon SEO and keyword research</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>A+ content creation</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>A+ brand content</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Product listings</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>TikTok shop</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>TikTok shop account management</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Collaboration </p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Content creation</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="skill-card">
-            <a class="card1" href="#">
+        <div className="skill-card">
+            <div className="card1" >
                 <p>Microsoft Office</p>
                 
-                <div class="go-corner" href="#">
-                    <div class="go-arrow">
+                <div className="go-corner" href="#">
+                    <div className="go-arrow">
                         →
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
 
       

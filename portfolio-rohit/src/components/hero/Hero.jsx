@@ -36,7 +36,6 @@ const Hero = () => {
 
           <div className="contact-container">
             <p>+91 9640315370</p>
-            {/* <p>rohithgunna6440@gmail.com</p> */}
             <div onClick={(e) => {window.location.href ='mailto: rohithgunna6440@gmail.com';}}> rohithgunna6440@gmail.com</div>
           </div>
           <div className="links-container">
