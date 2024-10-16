@@ -1,0 +1,40 @@
+import React from 'react'
+import graphic from '../assets/graphic.jpg'
+import { motion } from 'framer-motion'
+
+import { fadeIn } from '../utils/animationVariants'
+
+const Hero = () => {
+  return (
+    <section id='home' className='bg-heroBg text-white flex items-center pt-28 md:h-screen'>
+      <div className='container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full'>
+        {/* left side */}
+        <motion.div
+        variants={fadeIn('down', 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.7}}
+        className='md:w-1/2'>
+          <h1 className='text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug'>Web Developer</h1>
+          <p className='text-lg mb-12 md:pr-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet ipsum, nesciunt nisi libero adipisci assumenda amet exercitationem illum suscipit quam pariatur nihil possimus similique corrupti provident! Voluptatem, inventore nesciunt!</p>
+          <button className='bg-primary text-white py-3.5 px-8 font-medium rounded-md hover:bg-primary/90'>
+            <a href="#contact" className='flex gap-1 items-center'>
+              <span>Get Started</span>
+            </a>
+          </button>
+        </motion.div> 
+        {/* right Side */}
+        <motion.div
+        variants={fadeIn('left', 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.7}}
+        className='md:w-1/2 h-full'>
+          <img src={graphic} alt="Profileimage" className='w-full object-cover rounded-lg' />
+        </motion.div>
+      </div>
+    </section>
+  )
+}
+
+export default Hero

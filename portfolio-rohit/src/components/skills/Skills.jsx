@@ -1,12 +1,19 @@
 import React from 'react'
 import './skills.css'
 
+import { motion } from 'framer-motion'
+
+import { fadeIn } from '../../utils/animationVariants'
+
 const Skills = () => {
   return (
     <section className='skills-outer-container' id='skills'>
         <h1 className='heading-experience'>Skills</h1>
 
-    <div className='skills-container'>
+    <div
+     className='skills-container'
+
+     >
         <div className="skill-card">
             <div className="card1" >
                 <p>Listing management</p>

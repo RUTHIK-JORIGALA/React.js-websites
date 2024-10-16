@@ -4,6 +4,9 @@ import profile from '../../assets/hero-voilet.png'
 import resume from '../../assets/Rohith New copy.pdf'
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { motion } from 'framer-motion'
+
+import { fadeIn } from '../../utils/animationVariants'
 
 const Hero = () => {
 
@@ -28,7 +31,13 @@ const Hero = () => {
   return (
     <section className='hero-section' id='hero'>
       <div className='hero-container'>
-        <div className='text-container'>
+        <motion.div
+          className='text-container'
+          variants={fadeIn('right', 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false, amount: 0.7}}
+        >
           <h1>Rohith Gaddam</h1>
           <p className='hero-sub-heading'> Amazon Account Manager | E-commerce Specialist | Administrative Support Expert</p>
           <p>I am an accomplished Amazon account manager with extensive experience in e-commerce strategy, sales, and business development. As an expert in vendor management, I have successfully assisted numerous sellers in optimizing their Amazon accounts. My skills include project management, market research, and advanced Excel proficiency.
@@ -47,12 +56,18 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/rohith-gaddam-b02758246" target='blank'><FaLinkedinIn className='linkedin-icon' /></a>
             </div>
           </div>
-        </div>
-        <div className='image-container'>
+        </motion.div>
+        <motion.div
+         className='image-container'
+         variants={fadeIn('left', 0.2)}
+         initial="hidden"
+         whileInView={"show"}
+         viewport={{once: false, amount: 0.7}}
+         >
           <div className="image-box">
             <img src={profile} alt="" />
           </div>
-        </div>
+        </motion.div>
       </div>
       
     </section>

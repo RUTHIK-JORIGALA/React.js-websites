@@ -1,5 +1,5 @@
 .hero-section{
-
+    background-image: url('../../assets/bg-hero.jpg');
     background-size: cover;
     max-width: 1440px;
     margin: auto;

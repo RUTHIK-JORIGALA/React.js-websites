@@ -1,5 +1,5 @@
 .experience-container{
-    /* padding-top: 20px 150px; */
+    padding: 20px 50px;
     max-width: 1440px;
     margin: auto;
 }
@@ -17,16 +17,25 @@
     border-radius: 5px;
     margin-bottom: 10px;
     backdrop-filter: blur(10px);
-    background-color: rgba(0,0,80, 0.8);
+    background-color: rgba(94, 94, 174, 0.8);
     /* background-image: url('../../assets/amazon.png'); */
     background-size: cover;
 
 }
-.experience-box img{
-    float: right;
-    width: 200px;
-    margin-top: 150px;
+
+.experience-inner-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
+.experience-image-container{
+    display: flex;
+    align-items: center;
+}
+.experience-image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
 .experience-box h1{
     font-size: 2rem;
     padding: 2rem 0;
@@ -50,6 +59,28 @@
 }
 .experience-text p ul li{
     list-style-type: circle;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .experience-container{
+        padding: 20px;
+        max-width: 1440px;
+        margin: auto;
+    }
+    .experience-inner-box{
+        grid-template-columns: 1fr ;
+
+    }
+    .experience-image-container{
+        display: flex;
+        justify-content: center;
+    }
+    .experience-image-container img{
+        width: 60%;
+
+    }
+    
 }
 
 @media (max-width: 370px){
@@ -70,6 +101,9 @@
         border-radius: 5px;
         margin-bottom: 10px;
     
+    }
+    .experience-inner-box{
+        grid-template-columns: 1fr ;
     }
     .experience-box h1{
         font-size: 1.5rem;
